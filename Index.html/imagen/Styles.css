@@ -4,42 +4,27 @@ body {
 	padding: 0;
 	background-color: #f4f4f4;
 }
+
+h1 {
+    color: blue;
+}
  
-section {
+img {
 	background-color: white;
 	margin: 1em 0;
 	padding: 1em;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 }
- 
-header, footer {
-	background-color: #333;
-	color: white;
-	text-align: center;
-	padding: 1em 0;
-}
- 
-div {
-	padding: 1em;
-}
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	max-width: 12000px;
-	margin: 0 auto;
-	padding: 0 1em;
-}
- 
-nav ul {
+
+ul {
 	list-style: none;
 	display: flex;
 	gap: 1em;
 	margin: 0;
 	padding: 0;
 }
-nav ul li {
+ul li {
 	margin: 0;
 }
  
@@ -49,7 +34,7 @@ nav ul li a {
 	padding: 0.5em 1em;
 }
  
-nav ul li a:hover {
+ul li a:hover {
 	background-color: #555;
 }
  
@@ -70,4 +55,14 @@ button{
  
 button:hover{
 	background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
