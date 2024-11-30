@@ -1,49 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
 }
-
-header {
-    background: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+ 
+section {
+	background-color: white;
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ddd;
+	border-radius: 5px;
 }
-
+ 
+header, footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+}
+ 
+div {
+	padding: 1em;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 12000px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+ 
 nav ul {
-    list-style: none;
-    padding: 0;
-    background: #333;
-    display: flex;
-    justify-content: center;
+	list-style: none;
+	display: flex;
+	gap: 1em;
+	margin: 0;
+	padding: 0;
 }
-
 nav ul li {
-    margin: 0 15px;
+	margin: 0;
 }
-
+ 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    display: block;
+	color: white;
+	text-decoration: none;
+	padding: 0.5em 1em;
 }
-
+ 
 nav ul li a:hover {
-    background: #575757;
-    border-radius: 5px;
+	background-color: #555;
 }
-
-main {
-    padding: 1rem;
+ 
+.resaltado {
+	font-weight: bold;
+	color: #d9534f;
 }
-
-footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 1rem;
-    margin-top: 2rem;
+ 
+ 
+button{
+	padding: 0.5em 1em;
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ 
+button:hover{
+	background-color: #555;
 }
