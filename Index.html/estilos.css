@@ -1,11 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:<style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parisienne&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+    </style>;
 	line-height: 1.6;
 	margin: 0;
 	padding: 1rem;
@@ -15,17 +12,20 @@ body {
 
 /* Encabezados */
 h1, h2 {
-    color: blue;
+    text-align: justify;
+    color: rgb(0, 0, 0);
 	margin-bottom: 1rem;
 }
 h1 {
     font-size: 2.5rem;
     text-align: center;
+    margin-top: 20px;
 }
 
 h2 {
     font-size: 2rem;
     margin-top: 1.5rem;
+    margin-top: 20px;
 }
 
 /* Párrafos */
@@ -33,24 +33,27 @@ p {
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 1rem;
-    color: #555;
+    color: #000000;
 }
 
 /* Imágenes */
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Listas */
 ul, ol {
-    margin: 1rem 0;
-    padding-left: 2rem;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
 }
 
 li {
+    color: #000000;
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
@@ -58,23 +61,43 @@ li {
 /* Tablas */
 table {
     width: 100%;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 thead {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #9ada9d;
+    color: rgb(0, 0, 0);
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 th, td {
     padding: 0.75rem;
-    text-align: left;
+    text-align: center;
     border: 1px solid #ddd;
+}
+
+table, thead, tr, th¨{
+    color: #000000;
+}
+
+/* Enlaces */
+a {
+    color: #fd8e8e;
+    text-decoration: none;
+}/* Enlaces */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Formularios */
@@ -82,7 +105,7 @@ form {
     margin: 1rem 0;
     padding: 1rem;
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -91,14 +114,14 @@ label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #333;
+    color: #000000;
 }
 
 input[type="text"], input[type="email"], textarea, select {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
@@ -106,17 +129,21 @@ input[type="text"], input[type="email"], textarea, select {
 
 /* Botones */
 button {
-    display: inline-block;
-    background: #4CAF50;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #43c43f;
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
     border-radius: 5px;
+    font-size: 1em;
     cursor: pointer;
-    transition: background 0.3s ease;
 }
 
-button:hover {
-    background: #45a049;
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ccb1b1;
+    font-size: 0.9em;
 }
